@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <title>FORK</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <style>
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 35vw;
+            height: 50vh;
+            text-align: center;
+            font-family: arial;
+            /* background-color: rgba(103, 58, 183); */
+            float: left;
+            margin-left: 10vw;
+            margin-right: 0vw;
+        }
+
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 35vw;
+            height: 50vh;
+            text-align: center;
+            font-family: arial;
+            background-color: rgba(103, 58, 183);
+            margin-left: 55vw;
+        }
+
+        .title {
+            color: rgb(255, 255, 255);
+            font-size: 1.5em;
+
+        }
+
+        .head {
+            color: white;
+            size: 2em;
+            font-weight: bold;
+        }
+
+        .sec {
+            color: rgb(255, 255, 255);
+            font-size: 1.5em;
+
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        #back {
+            background: url('assets/images/fork1.png');
+            background-image: cover;
+            background-image: no-repeat;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ** Preloader Start ** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ** Preloader End ** -->
+
+    <!-- Header -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h2>Carnival</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <br>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div id="back">
+        <br><br>
+        <div style="text-align: center;" style="margin-top: 20px;">
+            <br>
+            <h1 style="color: rgb(255, 255, 255);">Hey There!</h1>
+            <h4 style="text-align:center; color: rgb(255, 255, 255);">It's time to make a decision! </h4>
+            <br>
+        </div>
+        <div class="card1" style="border-radius: 30px">
+            <a href="tabelbook.html">
+                <img src="assets/images/dinein.png" style="width: 35vw; height: 50vh; border-radius: 30px">
+                <h2 style="color: rgb(255, 255, 255);">Click Here to book a Table</h2>
+            </a>
+        </div>
+        <div class="card2" style="border-radius: 30px">
+            <a href="menu.html">
+                <img src="assets/images/homedel.png" style="width: 35vw; height: 50vh; border-radius: 30px">
+                <h2 style="color: rgb(255, 255, 255);">Click Here to Order Online</h2>
+            </a>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+
+    <script>
+        function myFunction() {
+            var checkBox = document.getElementById("myCheck");
+            var text = document.getElementById("text");
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+</body>
+
+</html>

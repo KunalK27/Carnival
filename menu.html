@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <title>MENU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 50vw;
+            height: 80vh;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            background-color: rgba(103, 58, 183);
+        }
+
+        .title {
+            color: rgb(255, 255, 255);
+            font-size: 1.5em;
+
+        }
+
+        .head {
+            color: white;
+            size: 2em;
+            font-weight: bold;
+        }
+
+        .sec {
+            color: rgb(255, 255, 255);
+            font-size: 1.5em;
+
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        #back {
+            background: url('assets/images/menu.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+        .quantity {
+  padding-top: 0px;
+  margin-left: 775px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 52px;
+  font-size: 16px;
+  color: #e41f1f;
+  font-weight: bold;
+  margin-top:0vh;
+}
+.minus-btn{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+.plus-btn{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 100x;
+}
+button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- ** Preloader Start ** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ** Preloader End ** -->
+
+    <!-- Header -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h2>Carnival</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <br>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div id="back">
+        <br><br>
+        <div style="text-align: center;" style="margin-top: 20px;">
+            <br>
+            <!-- <h1 style="color:white">RESTAURANT MENU</h1> -->
+            <!-- <h4 style="text-align:center; color:white">Your Profile</h4> -->
+            <br>
+        </div>
+        <div id="home" class="w3-content">
+
+            <!-- Menu -->
+            <div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+                <h1 class="w3-center w3-jumbo w3-padding-32">RESTAURANT MENU</h1>
+                <div class="w3-row w3-center w3-border w3-border-dark-grey">
+                    <a href="#pizza">
+                        <div class="w3-third w3-padding-large w3-red">North Indian</div>
+                    </a>
+                    <a href="#pasta">
+                        <div class="w3-third w3-padding-large w3-hover-red">South Indian</div>
+                    </a>
+                    <a href="#starters">
+                        <div class="w3-third w3-padding-large w3-hover-red">Italian</div>
+                    </a>
+                </div>
+
+                <div id="pizza" class="w3-container w3-white w3-padding-32">
+                    <h1><b>Paneer Makhani</b>
+                        <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 250</span></h1>
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                              <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                            </button>
+                            <input type="text" name="name" value="1">
+                            <button class="minus-btn" type="button" name="button">
+                              <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                            </button>
+                        </div>
+                        
+                    <p class="w3-text-grey">Fresh tomatoes, fresh cottage cheese, fresh basil</p>
+                    <hr><span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 30</span></h1>
+                    <h1><b>Butter Naan</b> 
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                              <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                            </button>
+                            <input type="text" name="name" value="1">
+                            <button class="minus-btn" type="button" name="button">
+                              <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                            </button>
+                        </div>
+                    <p class="w3-text-grey">Fresh Baked Tandoori Bread with Butter</p>
+
+                    <hr>
+                    <h1><b>Chicken 65</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 180</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Fresh tomatoes, masala, chicken, onions</p>
+
+                    <hr>
+                    <h1><b>Chole Bhature</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 300</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Fresh tomatoes, fried bread, fresh lentils, served hot</p>
+
+                    <hr>
+                    <h1><b>Vada Pav</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+                        <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 20</span>
+                    </h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Bread buns, hot fried potato cutlets</p>
+                </div>
+
+                <h1 id="pasta" class="w3-center w3-jumbo w3-padding-32">SOUTH INDIAN</h1>
+                <div class="w3-container w3-white w3-padding-32">
+
+                    <h1><b>Dosa</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+                        <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 80</span>
+                    </h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Varieties Avaiable, Rava, Served Hot</p>
+
+                    <hr>
+                    <h1><b>Sambar Vada</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 70</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Tomato Curry, Donut Shaped Rava delight</p>
+                    <hr>
+                    <h1><b>Uttapam</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 150</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Fresh tomatoes, onions, Rava</p>
+                </div>
+
+                <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">Italian</h1>
+                <div class="w3-container w3-white w3-padding-32">
+
+                    <h1><b>Pizza</b> <span class="w3-tag w3-grey w3-round">Veg and Non veg</span>
+                        <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 450</span>
+                    </h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Mozarella Cheese, Custom Topings</p>
+                    <hr>
+                    <h1><b>Pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 250</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Penne, Red Sauce or White Sauce</p>
+
+                    <hr>
+                    <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs. 150</span></h1>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                          <img src="assets/images/plus.svg" style="height: 1.5vh; width:1.5vw; margin-top: 0vh; margin-right: 0vw;" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                          <img src="assets/images/minus.svg" style="height: 1.5vh; width: 1.5vw" alt="" />
+                        </button>
+                    </div>
+                    <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+                </div>
+            </div>
+
+            <!-- End Content -->
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var checkBox = document.getElementById("myCheck");
+            var text = document.getElementById("text");
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+    <script type="text/JavaScript">
+        $('.minus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+ 
+    if (value >1) {
+        value = value - 1;
+    } else {
+        value = 0;
+    }
+ 
+  $input.val(value);
+ 
+});
+ 
+$('.plus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+ 
+    if (value < 100) {
+        value = value + 1;
+    } else {
+        value =100;
+    }
+ 
+    $input.val(value);
+});
+    </script>
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+</body>
+
+</html>
