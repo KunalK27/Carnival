@@ -21,7 +21,7 @@
   <h3 align="center">Carnival</h3>
 
   <p align="center">
-    A one stop destination for restaurants to manage their business
+    A one-stop project destination for restaurants to manage their business proficiently! 
   </p>
   <!--<p>
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> 
